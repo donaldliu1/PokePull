@@ -10,6 +10,14 @@ document.getElementById('pull-button').addEventListener('click', async () => {
         const cardElement = document.createElement('div');
         cardElement.className = 'card';
 
+        const nameElement = document.getElementById('name')
+        const rarityElement = document.getElementById('rarity')
+        const valueElement = document.getElementById('value')
+
+        nameElement.innerHTML = 'Name: ';
+        rarityElement.innerHTML = 'Rating :';
+        valueElement.innerHTML = 'Value: ';
+
         const cardImage = document.createElement('img');
         cardImage.src = card.images.large;
 
@@ -39,9 +47,9 @@ document.getElementById('pull-button').addEventListener('click', async () => {
         }
 
         cardElement.appendChild(cardImage);
-        cardElement.appendChild(cardRating);
-        cardElement.appendChild(cardName);
-        cardElement.appendChild(cardValue);
+        rarityElement.appendChild(cardRating);
+        nameElement.appendChild(cardName);
+        valueElement.appendChild(cardValue);
         cardsContainer.appendChild(cardElement);
     });
 });
