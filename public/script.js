@@ -4,6 +4,8 @@ document.getElementById('pull-button').addEventListener('click', async () => {
     const cardsContainer = document.getElementById('cards-container');
     cardsContainer.innerHTML = '';
 
+
+
     data.pulls.forEach(card => {
         const cardElement = document.createElement('div');
         cardElement.className = 'card';
