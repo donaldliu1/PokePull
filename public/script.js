@@ -5,7 +5,7 @@ document.getElementById('pull-button').addEventListener('click', async () => {
     cardsContainer.innerHTML = '';
 
 
-
+    
     data.pulls.forEach(card => {
         const cardElement = document.createElement('div');
         cardElement.className = 'card';
