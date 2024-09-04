@@ -59,3 +59,7 @@ There was 2 basic unpolished designs, orb format and gradient format:
 
 ### Gradient format
 ![orb format basic design](/design/gradient.png)
+
+The final descision was the gradient format as I felt it was more exciting to see the bar gradient go up compared to the orb format which was a static 5 orbs. Based on the rarity it the bar will slowly start from grey to reveal the gradient and create suspense.
+
+Next was the inventory, I remember collecting cards and putting them in my binder and I wanted to recreate that.
