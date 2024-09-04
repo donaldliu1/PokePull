@@ -53,3 +53,5 @@ Now that we've discussed how to get it up and running, lets get into how I got t
 ### Design
 Starting off I wanted it to resemble the pokedex from the show, I really enjoyed the concept of the original series when Ash would hold up his pokedex and it would scan the pokemon and give information. 
 There was 2 basic unpolished designs, orb format and gradient format. 
+![orb format basic design](/design/orb.png)
+![orb format basic design](/design/gradient.png)
