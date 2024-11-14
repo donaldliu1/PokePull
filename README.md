@@ -1,5 +1,11 @@
 # PokePull
 
+## Currently working on:
+- Cards pulled are different sizes, smaller cards leave white space, fix so white space doesnt appear
+- Currently all cards have same chance of being pulled, change so there is a distribution
+- Inventory not working, allow user to see all cards they have collected
+- Implement upgrade feature
+
 ## Overview
 I love Pokemon pack openings and gacha systems, what better way to learn coding through a personal passion project? This project's main purpose was for me to learn about databases using MongoDB, API calls, Express, Axios and Mongoose.
 
